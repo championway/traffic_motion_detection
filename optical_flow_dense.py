@@ -27,8 +27,8 @@ MOVEMENT_DETECTED_PERSISTENCE = 100
 # Create capture object
 cap = cv2.VideoCapture(5) # Flush the stream
 cap.release()
-cap = cv2.VideoCapture(0) # Then start the webcam
-
+#ap = cv2.VideoCapture(0) # Then start the webcam
+cap = cv2.VideoCapture('video/normal_night.mp4')
 # Init frame variables
 first_frame = None
 next_frame = None
