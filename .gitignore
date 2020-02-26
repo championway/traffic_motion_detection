@@ -1,7 +1,10 @@
 image/
+models/
 video/
 *.jpg
 *.mp4
 *.png
+*.pth
+*.txt
 *.pyc
 .ipynb*
